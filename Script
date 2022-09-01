@@ -706,7 +706,8 @@ library:selectTab(library.tabs[1]);
 else
   game:service('Players').LocalPlayer:Kick('You are not whitelisted!')
 end
-endlocal whitelistecheck = loadstring(game:HttpGet("https://pastebin.com/raw/eFcQmemG", true))()
+end
+local whitelistecheck = loadstring(game:HttpGet("https://pastebin.com/raw/eFcQmemG", true))()
 
 if whitelistecheck[game:service('Players').LocalPlayer.UserId] then
     if game.PlaceId == 5956785391 then
